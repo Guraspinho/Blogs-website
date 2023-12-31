@@ -9,7 +9,7 @@ const ejs = require('ejs');
 
 
 
-const dbURI = 'mongodb+srv://fenrirr:F0rrealurad@blogs.feq6u4r.mongodb.net/Blogs?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://Username:Password@blogs.feq6u4r.mongodb.net/Blogs?retryWrites=true&w=majority';
 mongoose.connect(dbURI)
 .then(() => 
 {
